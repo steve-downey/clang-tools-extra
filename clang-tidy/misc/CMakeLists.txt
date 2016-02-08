@@ -5,6 +5,7 @@ add_clang_library(clangTidyMiscModule
   AssertSideEffectCheck.cpp
   AssignOperatorSignatureCheck.cpp
   BoolPointerImplicitConversionCheck.cpp
+  ConstRefBuiltinCheck.cpp
   DefinitionsInHeadersCheck.cpp
   InaccurateEraseCheck.cpp
   IncorrectRoundings.cpp
@@ -28,6 +29,7 @@ add_clang_library(clangTidyMiscModule
   UnusedRAIICheck.cpp
   UniqueptrResetReleaseCheck.cpp
   VirtualNearMissCheck.cpp
+  VoidPointerArgumentCheck.cpp
 
   LINK_LIBS
   clangAST
